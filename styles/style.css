@@ -1,4 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+}
+
 h2 {
     color: red;
     text-align: center;
+}
+
+#parent {
+    background-color: black;
+    max-width: 1100px;
+    height: 600px;
+    margin: 100px auto;
+}
+
+#parent > h2 {
+    font-size: 80px;
+    text-decoration: underline;
 }
